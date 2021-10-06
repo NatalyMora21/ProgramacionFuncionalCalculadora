@@ -1,14 +1,7 @@
-const {suma, resta} = require('../operaciones');
+const suma = require('../operaciones/suma.js');
 
 test('Suma ', () => {
 
     expect(suma(1,2)).toBe(3);
-    
-})
-
-
-test('Resta ', () => {
-
-    expect(resta(1,2)).toBe(-1);
     
 })
